@@ -7,11 +7,11 @@ using namespace std;
 #include <iostream>
 
 //We define the transition matrix
-//				              /*  :  */ : a.x.y :  _  :  0-9  : del : Other
-int m_Int[4][7] = {{  		,     ,     1,    200,   200,   200,  200  },
-				           {		  ,     ,     1,     2,    200,   100,  200  },
-				           {			,     ,    200,   200,    3,    200,  200  },
-				           {			,     ,    200,   200,    3,    100,  200  }};
+//				       /*  :  */ : a.x.y :  _  :  0-9  : del : Other
+int m_Int[4][7] = {{    ,      ,     1,    200,   200,   200,  200  },
+				   {    ,      ,     1,     2,    200,   100,  200  },
+				   {	,      ,    200,   200,    3,    200,  200  },
+			       {	,      ,    200,   200,    3,    100,  200  }};
 
 
 //	Function to extract the column from the matrix that corresponds to the character

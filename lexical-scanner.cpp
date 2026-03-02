@@ -53,7 +53,7 @@ int main(){
 	// 	Read the string we are going to evaluate
 	char in_string[100];
 	cout << "Enter the string to evaluate: ";
-	cin >> in_string;
+	cin.getline(in_string, 100);
 	cout << in_string << endl;
 
 	int i = 0;
